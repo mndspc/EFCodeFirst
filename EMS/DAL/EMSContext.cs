@@ -8,7 +8,7 @@ namespace DAL
 {
     public class EMSContext:DbContext
     {
-        public EMSContext():base ("name=NordicEMSCon")
+        public EMSContext():base ("name=EMSContext")
         {
 
         }
@@ -19,5 +19,17 @@ namespace DAL
         public DbSet<SalaryInfo> SalaryInfoes { get; set; }
 
         public DbSet<UserInfo> UserInfoes { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //Use alias for DeptMaster
+            //modelBuilder.Entity<DeptMaster>().ToTable("DeptMaster");
+            //modelBuilder.Entity<DeptMaster>().HasKey(x=>x.DeptCode);
+
+            //modelBuilder.Entity<EmpProfile>().ToTable("EmpProfile");
+            //modelBuilder.Entity<EmpProfile>().HasKey(x=>x.EmpCode);
+
+            //modelBuilder.Entity<DeptMaster>().HasMany(x => x.EmpProfiles);
+        }
     }
 }

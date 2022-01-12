@@ -49,8 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeptMaster.cs" />
+    <Compile Include="DeptMasterDALRepository.cs" />
     <Compile Include="EmpProfile.cs" />
     <Compile Include="EMSContext.cs" />
+    <Compile Include="IDeptMasterDALRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalaryInfo.cs" />
     <Compile Include="UserInfo.cs" />

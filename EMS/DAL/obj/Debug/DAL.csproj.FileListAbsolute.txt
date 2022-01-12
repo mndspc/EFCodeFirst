@@ -5,7 +5,6 @@ D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\bin\Debug\EntityFramewo
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\bin\Debug\EntityFramework.xml
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Corporate\Nordic Academy\EF\Demos\EFCodeFirst\EMS\DAL\obj\Debug\DAL.dll

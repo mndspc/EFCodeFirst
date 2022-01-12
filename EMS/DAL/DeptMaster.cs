@@ -17,6 +17,7 @@ namespace DAL
 
 
         [Column("DeptName")]
+        [Required]
         public string DeptName { get; set; }
         public virtual ICollection<EmpProfile> EmpProfiles { get; set; }
     }
